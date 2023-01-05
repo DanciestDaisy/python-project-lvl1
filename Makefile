@@ -1,3 +1,5 @@
+all: install brain-games build publish package-install
+
 install:
 	poetry install
 
