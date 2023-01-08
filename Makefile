@@ -1,5 +1,3 @@
-all: install brain-games build publish package-install
-
 install:
 	poetry install
 
@@ -15,3 +13,5 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
+brain-even:
+	poetry run brain-even
