@@ -1,5 +1,5 @@
 from random import randint, choice
-from brain_games.games.game_pattern import ans_que
+from brain_games.game_pattern import ans_que
 
 condition = 'What is the result of the expression?'
 
