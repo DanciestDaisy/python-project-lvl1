@@ -1,12 +1,6 @@
 import prompt
 
 
-def welcome_user():
-    print('Welcome to the Brain games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-
-
 def ans_que(question, result, name):
     print(f'Question: {question}')
     answer = prompt.integer('Your answer: ')
