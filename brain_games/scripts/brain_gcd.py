@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import prompt
 from brain_games.games.brain_gcd import main_game, condition
 
@@ -12,6 +13,7 @@ def main():
         err = main_game(name)
         count += 1
         if err is True:
+            count -= 1
             break
     if count == 3:
         print(f'Congratulations, {name}!')

@@ -3,6 +3,7 @@ from brain_games.game_pattern import ans_que
 
 condition = 'Find the greatest common divisor of given numbers.'
 
+
 def main_game(name):
     int_1 = randint(1, 99)
     int_2 = randint(1, 99)
