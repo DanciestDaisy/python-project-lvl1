@@ -1,9 +1,6 @@
-import prompt
-
-
 def ans_que(question, result, name):
     print(f'Question: {question}')
-    answer = prompt.integer('Your answer: ')
+    answer = input('Your answer: ')
     if answer == result:
         print('Correct')
         err = False
