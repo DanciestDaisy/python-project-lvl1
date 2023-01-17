@@ -1,7 +1,7 @@
 from random import randint
 from brain_games.game_pattern import ans_que
 
-condition = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+condition = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def main_game(name):
