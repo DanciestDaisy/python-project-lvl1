@@ -8,7 +8,7 @@ def main_game(name):
     first_int = randint(1, 100)
     diff = randint(1, 10)
     k = randint(5, 16)
-    progression = [str(first_int + i*diff) for i in range(k)]
+    progression = [str(first_int + i * diff) for i in range(k)]
     rnd_member = randint(1, k - 1)
     result = progression.pop(rnd_member)
     progression.insert(rnd_member, '..')
