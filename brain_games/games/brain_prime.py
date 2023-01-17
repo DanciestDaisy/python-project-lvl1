@@ -5,7 +5,7 @@ condition = 'Answer "yes" if given number is prime. Otherwise answer "no"'
 
 
 def main_game(name):
-    number = randint(3, 9)
+    number = randint(3, 99)
     count = 0
     if number % 2 == 0:
         result = 'no'
